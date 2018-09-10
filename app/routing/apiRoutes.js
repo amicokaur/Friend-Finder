@@ -35,6 +35,7 @@ module.exports = function(app) {
   // ---------------------------------------------------------------------------
 
   app.post("/api/friends", function(req, res) {
+
     var thisUser = req.body;
     var differences = [];
     for (var i =0; i < friendsBook.length; i++) {
@@ -45,10 +46,12 @@ module.exports = function(app) {
             totalDiffrence += Math.abs(userDiffrence[j]-userSurvey[j])
         }
 
+        differences.push(totalDiffrence)
+
     }
-    score.push(totalDiffrence)
+    console.log(differences)
     var bestMatch = Math.min(...differences)
-    var bestMatchUser = score.indexof(bestMatch)
+    var bestMatchUser = differences.indexOf(bestMatch)
     var bestCompatability = friendsBook[bestMatchUser]
         res.json(bestCompatability)
   

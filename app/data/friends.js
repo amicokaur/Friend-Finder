@@ -7,8 +7,8 @@
 
 var friendsBook = [
     {
-        "name":"Amit",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "name":"brad",
+        "photo":"http://www.gstatic.com/tv/thumb/persons/314/314_v9_bc.jpg",
         "scores":[
             5,
             1,
@@ -24,14 +24,14 @@ var friendsBook = [
       },
       {
         "name":"Priyanka",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"../images/friends.jpg",
         "scores":[
             5,
-            1,
+            3,
             4,
             4,
             5,
-            1,
+            2,
             2,
             5,
             4,
@@ -40,15 +40,15 @@ var friendsBook = [
       },
       {
         "name":"Sim",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"../images/friends.jpg",
         "scores":[
             5,
-            1,
-            4,
+            3,
             4,
             5,
+            5,
             1,
-            2,
+            3,
             5,
             4,
             1
