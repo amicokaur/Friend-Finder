@@ -8,7 +8,7 @@
 var friendsBook = [
     {
         "name":"brad",
-        "photo":"http://www.gstatic.com/tv/thumb/persons/314/314_v9_bc.jpg",
+        "photo":"friends.jpg",
         "scores":[
             5,
             1,
@@ -24,23 +24,23 @@ var friendsBook = [
       },
       {
         "name":"Priyanka",
-        "photo":"../images/friends.jpg",
+        "photo":"friends.jpg",
         "scores":[
             5,
             3,
             4,
             4,
-            5,
+            1,
             2,
             2,
-            5,
+            2,
             4,
             1
           ]
       },
       {
         "name":"Sim",
-        "photo":"../images/friends.jpg",
+        "photo":"friends.jpg",
         "scores":[
             5,
             3,
