@@ -1,12 +1,331 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       <!-- link to  -->
+        
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
 <head>
     <meta charset="utf-8" />
     
-    <title>friend finder</title>
+    <title>Survey</title>
     
 </head>
 <body>
-    <h2> Survey Questions</h2>
+    <div class= "container bg-secondary text-white">
+        <div class="row">
+            <div class="col-md-12 mt-4">
+                <h2> Survey Questions</h2>
+                <hr class= "bg-white">
+
+            </div>
+            
+            <div class="col-md-12 mt-3">
+
+                <h3>About you</h3>
+                <h4>Name (Required)</h4>
+                <input type="text" id= "name" class="form-control">
+                <h4>Link to photo Image (Required)</h4>
+                <input type="text" id= "photo" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 mb-2 mt-4">
+                <h5>Question 1</h5>
+                <h6>Your mind is always buzzing with unexplored ideas and plans.</h6>
+                
+            </div>
+            <div class="col-md-2">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        
+                    </div>
+                    <select class="custom-select" id="question-1">
+                        <option selected>Choose...</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="4">Four</option>
+                        <option value="5">Five</option>
+                    </select>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 mb-2">
+                <h5>Question 2</h5>
+                <h6>Generally speaking, you rely more on your experience than your imagination.</h6>
+
+            </div>
+            <div class="col-md-2">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            
+                        </div>
+                        <select class="custom-select" id="question-2">
+                            <option selected>Choose...</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                            <option value="5">Five</option>
+                        </select>
+                    </div>
+    
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 mb-2"> 
+                <h5>Question 3</h5>
+                <h6>You find it easy to stay relaxed and focused even when there is some pressure.</h6>
+            </div>
+            <div class="col-md-2">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            
+                        </div>
+                        <select class="custom-select" id="question-3">
+                            <option selected>Choose...</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                            <option value="5">Five</option>
+                        </select>
+                    </div>
+    
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 mb-2">
+
+                <h5>Question 4</h5>
+                <h6>You rarely do something just out of sheer curiosity.</h6>
+            </div>
+            <div class="col-md-2">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            
+                        </div>
+                        <select class="custom-select" id="question-4">
+                            <option selected>Choose...</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                            <option value="5">Five</option>
+                        </select>
+                    </div>
+    
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 mb-2">
+                <h5>Question 5</h5>
+                <h6>People can rarely upset you.</h6>
+                
+            </div>
+            <div class="col-md-2">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            
+                        </div>
+                        <select class="custom-select" id="question-5">
+                            <option selected>Choose...</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                            <option value="5">Five</option>
+                        </select>
+                    </div>
+    
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 mb-2">
+                
+                <h5>Question 6</h5>
+                <h6>It is often difficult for you to relate to other people’s feelings.</h6>
+            </div>
+            <div class="col-md-2">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            
+                        </div>
+                        <select class="custom-select" id="question-6">
+                            <option selected>Choose...</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                            <option value="5">Five</option>
+                        </select>
+                    </div>
+    
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 mb-2">
+                    <h5>Question 7</h5>
+                    <h6>In a discussion, truth should be more important than people’s sensitivities.</h6>
+
+            </div>
+            <div class="col-md-2">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            
+                        </div>
+                        <select class="custom-select" id="question-7">
+                            <option selected>Choose...</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                            <option value="5">Five</option>
+                        </select>
+                    </div>
+    
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 mb-2">
+                <h5>Question 8</h5>
+                <h6>You rarely get carried away by fantasies and ideas.</h6>
+                
+            </div>
+            <div class="col-md-2">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            
+                        </div>
+                        <select class="custom-select" id="question-8">
+                            <option selected>Choose...</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                            <option value="5">Five</option>
+                        </select>
+                    </div>
+    
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 mb-2">
+                
+                <h5>Question 9</h5>
+                <h6>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h6>
+            </div>
+            <div class="col-md-2">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            
+                        </div>
+                        <select class="custom-select" id="question-9">
+                            <option selected>Choose...</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                            <option value="5">Five</option>
+                        </select>
+                    </div>
+    
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 mb-2">
+
+                <h5>Question 10</h5>
+                <h6>You feel more energetic after spending time with a group of people.</h6>
+            </div>
+            <div class="col-md-2">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            
+                        </div>
+                        <select class="custom-select" id="question-10">
+                            <option selected>Choose...</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                            <option value="5">Five</option>
+                        </select>
+                    </div>
+    
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <button class="btn btn-dark btn-block mb-5 btn-lg" id="submit" type="submit">Submit</button>
+
+            </div>
+        </div>
+    </div>
+
 </body>
+<script>
+// Capture the form inputs
+$("#submit").on("click", function(event) {
+      event.preventDefault();
+
+      // Form validation
+      function validateForm() {
+        var isValid = true;
+        $(".form-control").each(function() {
+          if ($(this).val() === "") {
+            isValid = false;
+          }
+        });
+
+        $(".chosen-select").each(function() {
+
+          if ($(this).val() === "") {
+            isValid = false;
+          }
+        });
+        return isValid;
+      }
+
+      // If all required fields are filled
+      if (validateForm()) {
+        // Create an object for the user"s data
+        var userData = {
+          name: $("#name").val(),
+          photo: $("#photo").val(),
+          scores: [
+            $("#q1").val(),
+            $("#q2").val(),
+            $("#q3").val(),
+            $("#q4").val(),
+            $("#q5").val(),
+            $("#q6").val(),
+            $("#q7").val(),
+            $("#q8").val(),
+            $("#q9").val(),
+            $("#q10").val()
+          ]
+        };
+
+        // AJAX post the data to the friends API.
+        $.post("/api/friends", userData, function(data) {
+
+          // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+          $("#match-name").text(data.name);
+          $("#match-img").attr("src", data.photo);
+
+          // Show the modal with the best match
+          $("#results-modal").modal("toggle");
+
+        });
+      } else {
+        alert("Please fill out all fields before submitting!");
+      }
+    });
+</script>
 </html>

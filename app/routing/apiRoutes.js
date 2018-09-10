@@ -42,12 +42,12 @@ module.exports = function(app) {
         var userDiffrence = friendsBook[i].scores
         var totalDiffrence = 0;
         for (var j = 0; j < userDiffrence.length; j++){
-            totalDiffrence += math.abs(userDiffrence[j]-userSurvey[j])
+            totalDiffrence += Math.abs(userDiffrence[j]-userSurvey[j])
         }
 
     }
     score.push(totalDiffrence)
-    var bestMatch = math.min(differences)
+    var bestMatch = Math.min(...differences)
     var bestMatchUser = score.indexof(bestMatch)
     var bestCompatability = friendsBook[bestMatchUser]
         res.json(bestCompatability)
