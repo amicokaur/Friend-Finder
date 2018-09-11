@@ -7,8 +7,8 @@
 
 var friendsBook = [
     {
-        "name":"brad",
-        "photo":"friends.jpg",
+        "name":"Brad",
+        "photo":"Brad.jpg",
         "scores":[
             5,
             1,
@@ -40,7 +40,7 @@ var friendsBook = [
       },
       {
         "name":"Sim",
-        "photo":"friends.jpg",
+        "photo":"crystal.jpg",
         "scores":[
             5,
             3,
